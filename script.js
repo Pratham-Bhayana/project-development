@@ -107,9 +107,10 @@ gsap.from("#program1", {
 
   scrollTrigger: {
     trigger: "#program1",
-    start: "top 50%",
+    start: "top 70%",
     end: "100%",  // when the top of .card hits 80% from top of viewport
     toggleActions: "play none none reverse",
+    markers:false,
    
   }
 });
@@ -125,7 +126,7 @@ gsap.from("#program2", {
 
   scrollTrigger: {
     trigger: "#program1",
-    start: "top 50%",
+    start: "top 70%",
     end: "100%",  // when the top of .card hits 80% from top of viewport
     toggleActions: "play none none reverse",
    
@@ -142,7 +143,7 @@ gsap.from("#program3", {
 
   scrollTrigger: {
     trigger: "#program3",
-    start: "top 50%",
+    start: "top 70%",
     end: "100%",  // when the top of .card hits 80% from top of viewport
     toggleActions: "play none none reverse",
    
